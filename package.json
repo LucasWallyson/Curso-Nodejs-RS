@@ -1,0 +1,31 @@
+{
+  "name": "Curso-Nodejs-RS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasWallyson/Curso-Nodejs-RS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasWallyson/Curso-Nodejs-RS/issues"
+  },
+  "homepage": "https://github.com/LucasWallyson/Curso-Nodejs-RS#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.5",
+    "mongoose-paginate": "^5.0.3",
+    "require-dir": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
